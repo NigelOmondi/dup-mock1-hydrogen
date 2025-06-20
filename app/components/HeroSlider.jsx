@@ -9,14 +9,14 @@ const slides = [
     imageMobile: "/kelemi-mobile.webp",
   },
   {
-    name: "Vivo",
-    imageDesktop: "/vivo30.webp",
-    imageMobile: "/vivo30-mobile.webp",
+    name: "New Arrivals",
+    imageDesktop: "/new-arrivals.webp",
+    imageMobile: "/new-arrivals-mobile.webp",
   },
   {
-    name: "Style Capital",
-    imageDesktop: "/style-capital.webp",
-    imageMobile: "/style-capital-mobile.webp",
+    name: "Wadrobe Basics",
+    imageDesktop: "/wardrobe-basics.webp",
+    imageMobile: "/wadrobe-basics-mobile.webp",
   },
 ];
 

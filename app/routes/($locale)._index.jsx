@@ -2,6 +2,7 @@ import {Await, useLoaderData, Link} from 'react-router';
 import {Suspense} from 'react';
 import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
+import HeroSlider from '~/components/HeroSlider';
 
 const testimonials = [
   {
@@ -161,6 +162,7 @@ export default function Homepage() {
 
   return (
     <div className="home">
+      <HeroSlider />
       <FeaturedCollection collection={data.featuredCollection} />
        <CartUpsell featuredCollection={data.featuredCollection} />
       <RecommendedProducts products={data.recommendedProducts} />
